@@ -2,6 +2,7 @@
 Who to create Expo React Native typescript Project
 
 https://github.com/expo/examples/tree/master/with-typescript
+
 https://docs.expo.dev/guides/typescript/
 
 ```powershell
