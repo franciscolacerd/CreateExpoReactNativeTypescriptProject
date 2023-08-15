@@ -8,6 +8,7 @@ https://docs.expo.dev/guides/typescript/
 ```powershell
 # install CLI
 npm i -g expo-cli
+yarn global add eas-cli
 
 # create project expo react-native typescript
 npx create-expo-app -t
@@ -20,5 +21,11 @@ eas init --id 00000000-0000-0000-0000-000000000000
 
 # run
 npx expo
+
+# generate preview apk 
+eas build -p android --profile preview
+
+# generate production apk
+eas build -p android
 
 ```
