@@ -14,7 +14,7 @@ yarn global add eas-cli
 npx create-expo-app -t
 
 # go to project
-cd VaspAt
+cd App
 
 # link to Expo Go
 eas init --id 00000000-0000-0000-0000-000000000000
