@@ -22,6 +22,12 @@ eas init --id 00000000-0000-0000-0000-000000000000
 # run
 npx expo
 
+# check dependencies
+npx expo-doctor
+
+# fix dependencies
+ npx expo install --fix
+
 # generate preview apk 
 eas build -p android --profile preview
 
