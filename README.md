@@ -6,8 +6,11 @@ https://github.com/expo/examples/tree/master/with-typescript
 https://docs.expo.dev/guides/typescript/
 
 ```powershell
-# install CLI
+# install expo CLI
 npm i -g expo-cli
+
+# install eas CLI
+yarn global add eas-cli
 
 # create project expo react-native typescript
 npx create-expo-app -t
