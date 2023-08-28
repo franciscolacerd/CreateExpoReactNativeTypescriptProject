@@ -22,6 +22,9 @@ eas init --id 00000000-0000-0000-0000-000000000000
 # run
 npx expo
 
+# run with clean cache
+npx expo start -c
+
 # check dependencies
 npx expo-doctor
 
