@@ -10,7 +10,7 @@ https://docs.expo.dev/guides/typescript/
 npm i -g expo-cli
 
 # install eas CLI
-yarn global add eas-cli
+run npm install -g eas-cli
 
 # create project expo react-native typescript
 npx create-expo-app -t
