@@ -37,6 +37,9 @@ npx expo-doctor
 eas build -p android --profile preview
 
 # generate production apk
-eas build -p android
+eas build -p android -e production
+
+# deploy to google store
+eas submit -p android --latest 
 
 ```
