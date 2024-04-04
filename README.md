@@ -33,6 +33,9 @@ npx expo-doctor
 # fix dependencies
  npx expo install --fix
 
+# Or fix dependencies
+npx expo install --check
+
 # generate preview apk 
 eas build -p android --profile preview
 
