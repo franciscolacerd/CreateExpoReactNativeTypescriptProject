@@ -36,6 +36,9 @@ npx expo-doctor
 # Or fix dependencies
 npx expo install --check
 
+# update expo go to latest version
+npm install expo@latest
+
 # generate preview apk 
 eas build -p android --profile preview
 
