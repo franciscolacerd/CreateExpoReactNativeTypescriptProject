@@ -27,6 +27,9 @@ npx expo
 # run with clean cache
 npx expo start -c
 
+# run localhost with usb
+npx expo start --localhost
+
 # check dependencies
 npx expo-doctor
 
