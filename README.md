@@ -52,3 +52,5 @@ eas build -p android -e production
 eas submit -p android --latest 
 
 ```
+
+Tip: Sometimes, running your app in production mode locally will show errors that normally wouldn't be thrown. You can run the app locally in production by running npx expo start --no-dev --minify. --no-dev tells the server not to be run in development mode, and --minify is used to minify your code the same way it is for production JavaScript bundles.
