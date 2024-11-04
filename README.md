@@ -1,5 +1,5 @@
 # Create Expo React Native Typescript Project
-Who to create Expo React Native typescript Project
+How to create Expo React Native typescript Project
 
 https://github.com/expo/examples/tree/master/with-typescript
 
