@@ -30,6 +30,12 @@ npx expo start -c
 # run localhost with usb
 npx expo start --localhost
 
+# check new updates
+npx npm-check
+
+# try to update all
+npx npm-check -u
+
 # check dependencies
 npx expo-doctor
 
