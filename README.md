@@ -48,10 +48,10 @@ npx expo install --check
 # update expo go to latest version
 npm install expo@latest
 
-# For eas debug package
+# build eas development package
 eas build --profile=development --platform=android
 
-# For eas debug
+# run project in development server
 npx expo start --dev-client   
 
 # generate preview apk 
